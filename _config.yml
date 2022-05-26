@@ -19,13 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Greeting fellow earthian. I am now on my new journey to the wilder world of more Data.
   Please be patient and enjoy my stories during this flight, and hopefully, we shall become friends!
 baseurl: "/jekyl-test-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nutnareek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  nutnareek
 permalink: /:collection/:year-:month-:day-:title:output_ext
 # Build settings
 
-#markdown: kramdown
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
